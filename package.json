@@ -1,0 +1,16 @@
+{
+  "name": "convai-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for Convai — create and manage AI characters from Claude",
+  "type": "module",
+  "main": "index.js",
+  "bin": { "convai-mcp": "./index.js" },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "dotenv": "^16.0.0"
+  }
+}
